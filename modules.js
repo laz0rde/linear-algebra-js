@@ -65,7 +65,7 @@ class Matrix {
     }
 
     SetZeros(size){
-        this.SetDiagonal(size, 0);
+        return this.SetDiagonal(size, 0);
     }
 
     SetOnes(size){
